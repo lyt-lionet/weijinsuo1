@@ -1,0 +1,304 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+
+@font-face {
+    font-family: 'itcast';
+    src: url(../fonts/MiFie-Web-Font.eot) format("embedded-opentype"), url(../fonts/MiFie-Web-Font.ttf) format("truetype"), url(../fonts/MiFie-Web-Font.svg) format("svg"), url(../fonts/MiFie-Web-Font.woff) format("woff");
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: "itcast";
+    font-style: normal;
+}
+
+.icon-mobilephone::before {
+    content: "\e908";
+}
+
+.icon-telephone::before {
+    content: "\e909";
+}
+
+.icon-icon::before {
+    content: "\e920";
+    font-size: 50px;
+    color: #e92322;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.icon-logo::before {
+    content: "\e93e";
+    font-size: 28px;
+    color: #333;
+    /* line-height: 50px; */
+    vertical-align: middle;
+}
+
+
+/* 头部区域 */
+
+#header {}
+
+#header > .topbar {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#header > .topbar > .container {}
+
+#header > .topbar > .container > .row {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#header > .topbar > .container > .row > div {
+    height: 40px;
+    border-left: 1px solid #c0c0c0;
+}
+
+#header > .topbar > .container > .row > div:first-child {
+    border-left: 0px;
+}
+
+#header > .topbar > .container > .row > div > a {
+    color: #666;
+}
+
+#header > .topbar > .container > .row > div > .mobile-link > img {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 28px;
+    display: none;
+}
+
+#header > .topbar > .container > .row > div > .mobile-link:hover > img {
+    display: block;
+}
+
+
+/* /头部区域 */
+
+/* 轮播图 */
+#slide > .carousel > .carousel-inner > .item {
+    height: 410px;
+    background-position: center center; 
+}
+/* /轮播图 */
+
+/* 特色介绍 */
+.icon-uniE907::before {
+    content: "\e907";
+    font-size: 30px;
+}
+
+#feature {
+    padding: 40px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#feature .media {
+    margin-top: 20px;
+}
+
+#feature .media > a {
+    color: #666;
+    text-decoration: none;
+}
+
+#feature .media > a:hover {
+    color: #e92322;
+}
+/* /特色介绍 */
+
+/* 立即预约 */
+.icon-uniE906::before {
+    content: "\e906";
+}
+
+.icon-uniE905::before {
+    content: "\e905";
+}
+
+#booking {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#booking > .container {
+    padding: 20px 0;
+}
+
+#booking > .container > .pull-left > p {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#booking > .container > .pull-left > p > span {
+    color: #e92322;
+}
+
+#booking > .container > .pull-left > p > a {
+    color: #e92322;
+    text-decoration: none;
+    border-bottom: 1px dashed #e92322;
+}
+/* /立即预约 */
+
+/* 产品推荐 */
+#products {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+}
+
+#products > .container > .nav-tabs > li.active > a {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid #e92322;
+}
+
+#products > .container > .nav-tabs > li > a {
+    color: #555;
+    border: 0;
+    font-size: 16px;
+} 
+
+#products > .container > .tab-content {
+    padding: 20px 0;
+}
+
+/* 面板区域 */
+#products > .container > .tab-content > .tab-pane > .row > div > .panel > .panel-heading,.panel-body {
+    background-color: #e92322;
+    color: #fff;
+}
+/* /面板区域 */
+/* /产品推荐 */
+
+
+/* 自定义导航条 */
+
+.navbar-default {
+    background-color: #fff;
+    border: 0;
+    border-color: #e7e7e7;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+    color: #777;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    line-height: 48px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 2px solid #e92322;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-default .navbar-link {
+    color: #777;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #333;
+}
+
+.navbar-default .btn-link {
+    color: #777;
+}
+
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+    color: #333;
+}
+
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+    color: #ccc;
+}
+
+/* /自定义导航条 */
